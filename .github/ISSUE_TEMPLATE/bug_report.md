@@ -21,8 +21,8 @@ assignees: ''
 
 **Details:**
  - Operating System: 
- - Wexond version: 
- - Last known working Wexond version: 
+ - nuon version: 
+ - Last known working nuon version: 
 
 **Additional context**
 <!-- Add any other context about the problem here. -->

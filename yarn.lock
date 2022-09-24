@@ -1084,9 +1084,9 @@
   resolved "https://registry.nlark.com/@webpack-cli/serve/download/@webpack-cli/serve-1.5.1.tgz#b5fde2f0f79c1e120307c415a4c1d5eb15a6f278"
   integrity sha1-tf3i8PecHhIDB8QVpMHV6xWm8ng=
 
-"@wexond/rpc-core@^1.0.3":
+"@wexond/rpc-electron@^1.0.3":
   version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@wexond/rpc-core/-/rpc-core-1.0.3.tgz#074de37fd461c1f832cceafe9c926d557e1280e2"
+  resolved "https://registry.yarnpkg.com/@wexond/rpc-electron/-/rpc-core-1.0.3.tgz#074de37fd461c1f832cceafe9c926d557e1280e2"
   integrity sha512-ZcvAckjBEEJR5mowk09n0sub08VPS5Ejip0QoT9YOyGm/aOLrlqr8qDDdtLSFVNxw5X3SEWjdYsVN4ZtgI+XaQ==
 
 "@wexond/rpc-electron@^1.0.3":
