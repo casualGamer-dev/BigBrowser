@@ -2,6 +2,8 @@ import { extname } from 'path';
 import { dialog } from 'electron';
 import { Application } from '../application';
 
+
+
 export const saveAs = async () => {
   const {
     title,
@@ -23,6 +25,8 @@ export const saveAs = async () => {
   webContents.savePage(filePath, ext === '.htm' ? 'HTMLOnly' : 'HTMLComplete');
 };
 
+
+
 export const viewSource = async () => {
   const { viewManager } = Application.instance.windows.current;
 
@@ -34,6 +38,8 @@ export const viewSource = async () => {
     true,
   );
 };
+
+
 
 export const printPage = () => {
   const {

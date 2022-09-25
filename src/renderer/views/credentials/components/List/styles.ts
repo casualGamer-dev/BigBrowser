@@ -3,11 +3,15 @@ import styled from 'styled-components';
 import { robotoRegular, centerIcon } from '~/renderer/mixins';
 import { transparency, ICON_CLOSE } from '~/renderer/constants';
 
+
+
 export const StyledItem = styled.div`
   display: flex;
   height: 32px;
   align-items: center;
 `;
+
+
 
 export const Username = styled.div`
   font-size: 13px;
@@ -16,9 +20,13 @@ export const Username = styled.div`
   ${robotoRegular()};
 `;
 
+
+
 export const Password = styled(Username)`
   flex: 1;
 `;
+
+
 
 export const DeleteIcon = styled.div`
   width: 16px;

@@ -143,6 +143,8 @@ class StartupControl extends React.PureComponent<Props, State> {
   }
 }
 
+
+
 export const OnStartup = observer(() => {
   const { type } = store.settings.startupBehavior;
   const startupTabList = store.startupTabs.list.filter((x) => x.isUserDefined);

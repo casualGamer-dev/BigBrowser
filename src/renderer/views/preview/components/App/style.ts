@@ -4,6 +4,8 @@ import { maxLines } from '~/renderer/mixins';
 import { TAB_MAX_WIDTH } from '~/renderer/views/app/constants/tabs';
 import { PersistentDialogStyle } from '~/renderer/mixins/dialogs';
 
+
+
 export const StyledApp = styled(PersistentDialogStyle)`
   margin: 0;
   padding: 12px;
@@ -16,6 +18,8 @@ export const StyledApp = styled(PersistentDialogStyle)`
   `}
 `;
 
+
+
 export const Title = styled.div`
   font-weight: 500;
   line-height: 1.3rem;
@@ -23,16 +27,22 @@ export const Title = styled.div`
   opacity: 0.87;
 `;
 
+
+
 export const Domain = styled.div`
   opacity: 0.7;
   line-height: 1.3rem;
 `;
+
+
 
 export const Subtitle = styled.div`
   font-size: 13px;
   opacity: 0.54;
   margin-top: 8px;
 `;
+
+
 
 export const Buttons = styled.div`
   display: flex;

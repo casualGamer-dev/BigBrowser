@@ -3,6 +3,8 @@ import { centerIcon } from '~/renderer/mixins';
 import { transparency, ICON_DROPDOWN } from '~/renderer/constants';
 import { ITheme } from '~/interfaces';
 
+
+
 export const StyledSection = styled.div`
   width: 100%;
   border-radius: 4px;
@@ -15,6 +17,8 @@ export const StyledSection = styled.div`
   `};
 `;
 
+
+
 export const Header = styled.div`
   width: 100%;
   height: 48px;
@@ -22,6 +26,8 @@ export const Header = styled.div`
   align-items: center;
   cursor: pointer;
 `;
+
+
 
 export const Icon = styled.div`
   width: 18px;
@@ -36,10 +42,14 @@ export const Icon = styled.div`
   `};
 `;
 
+
+
 export const Label = styled.div`
   margin-left: 16px;
   font-size: 14px;
 `;
+
+
 
 export const DropIcon = styled.div`
   width: 20px;
@@ -55,6 +65,8 @@ export const DropIcon = styled.div`
     filter: ${theme['pages.lightForeground'] ? 'invert(100%)' : 'none'};
   `}
 `;
+
+
 
 export const Container = styled.div`
   width: 100%;

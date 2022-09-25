@@ -71,6 +71,8 @@ const onMoreClick = (data: ISearchEngine) => (
   store.menuVisible = true;
 };
 
+
+
 export const SearchEngine = observer(({ data }: { data: ISearchEngine }) => {
   const isDefault = store.searchEngine.keyword === data.keyword;
   return (
@@ -98,6 +100,8 @@ const onAddClick = () => {
   store.searchEngineKeywordInputRef.current.value = '';
   store.searchEngineUrlInputRef.current.value = '';
 };
+
+
 
 export const ManageSearchEngines = observer(() => {
   return (
@@ -130,6 +134,8 @@ export const ManageSearchEngines = observer(() => {
 const onManageSearchEngines = () => {
   store.selectedSection = 'search-engines';
 };
+
+
 
 export const AddressBar = observer(() => {
   return (

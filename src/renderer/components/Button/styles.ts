@@ -6,6 +6,8 @@ interface StyledButtonProps {
   type?: 'contained' | 'outlined';
 }
 
+
+
 export const StyledButton = styled.div`
   min-width: 80px;
   width: fit-content;
@@ -49,6 +51,8 @@ export const StyledButton = styled.div`
     }
   `};
 `;
+
+
 
 export const StyledLabel = styled.div`
   z-index: 1;

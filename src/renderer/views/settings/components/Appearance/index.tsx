@@ -100,6 +100,8 @@ const BookmarksBar = observer(() => {
   );
 });
 
+
+
 export const Appearance = observer(() => {
   return (
     <>

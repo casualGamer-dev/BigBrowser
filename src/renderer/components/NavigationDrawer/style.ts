@@ -4,6 +4,8 @@ import { transparency, ICON_SEARCH } from '~/renderer/constants';
 import { ITheme } from '~/interfaces';
 import { centerIcon, noButtons } from '~/renderer/mixins';
 
+
+
 export const StyledNavigationDrawer = styled.div`
   height: 100%;
   left: 0;
@@ -22,6 +24,8 @@ export const StyledNavigationDrawer = styled.div`
   `}
 `;
 
+
+
 export const MenuItems = styled.div`
   display: flex;
   flex-flow: column;
@@ -32,16 +36,22 @@ export const MenuItems = styled.div`
   ${noButtons('6px', 'rgba(0, 0, 0, 0.04)', 'rgba(0, 0, 0, 0.12)')};
 `;
 
+
+
 export const Header = styled.div`
   display: flex;
   margin-top: 32px;
   align-items: center;
 `;
 
+
+
 export const Title = styled.div`
   font-size: 24px;
   font-weight: 300;
 `;
+
+
 
 export const Input = styled.input`
   border: none;
@@ -65,6 +75,8 @@ export const Input = styled.input`
     }
   `}
 `;
+
+
 
 export const Search = styled.div`
   margin-top: 24px;

@@ -79,6 +79,8 @@ const onShieldContextMenu = (e: React.MouseEvent<HTMLDivElement>) => {
   menu.popup();
 };
 
+
+
 export const SiteButtons = observer(() => {
   const { selectedTab } = store.tabs;
 

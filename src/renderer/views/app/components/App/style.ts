@@ -2,6 +2,8 @@ import styled, { css } from 'styled-components';
 
 import { ITheme } from '~/interfaces';
 
+
+
 export const Line = styled.div`
   height: 1px;
   width: 100%;
@@ -9,6 +11,8 @@ export const Line = styled.div`
   position: relative;
   background-color: black;
 `;
+
+
 
 export const StyledApp = styled.div`
   display: flex;

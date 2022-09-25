@@ -5,6 +5,8 @@ import { transparency } from '~/renderer/constants';
 import { ICON_FOLDER, ICON_DROPDOWN } from '~/renderer/constants/icons';
 import { ITheme } from '~/interfaces';
 
+
+
 export const StyledTreeItem = styled.div`
   width: 100%;
   height: 32px;
@@ -28,6 +30,8 @@ export const StyledTreeItem = styled.div`
       : 'none'};
   `}
 `;
+
+
 
 export const DropIcon = styled.div`
   min-width: 24px;
@@ -56,6 +60,8 @@ export const DropIcon = styled.div`
   `}
 `;
 
+
+
 export const FolderIcon = styled.div`
   min-width: 24px;
   min-height: 24px;
@@ -67,6 +73,8 @@ export const FolderIcon = styled.div`
     filter: ${theme['pages.lightForeground'] ? 'invert(100%)' : ''};
   `}
 `;
+
+
 
 export const Label = styled.div`
   font-size: 13px;

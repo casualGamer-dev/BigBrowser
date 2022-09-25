@@ -3,10 +3,14 @@ import { shadows } from '~/renderer/mixins';
 import { ITheme } from '~/interfaces';
 import { DIALOG_BORDER_RADIUS } from '~/renderer/mixins/dialogs';
 
+
+
 export const PathView = styled.div`
   margin-top: 48px;
   display: flex;
 `;
+
+
 
 export const PathItem = styled.div`
   font-size: 20px;
@@ -31,6 +35,8 @@ export const PathItem = styled.div`
   }
 `;
 
+
+
 export const Dialog = styled.div`
   position: fixed;
   width: 512px;
@@ -51,10 +57,14 @@ export const Dialog = styled.div`
   `}
 `;
 
+
+
 export const DialogTitle = styled.div`
   font-size: 16px;
   margin-bottom: 16px;
 `;
+
+
 
 export const DialogButtons = styled.div`
   float: right;

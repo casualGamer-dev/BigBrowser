@@ -27,6 +27,8 @@ const DoNotTrackToggle = observer(() => {
   );
 });
 
+
+
 export const Privacy = () => {
   return (
     <>

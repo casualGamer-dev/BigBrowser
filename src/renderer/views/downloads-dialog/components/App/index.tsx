@@ -12,6 +12,8 @@ const dialogClicked = (e: React.MouseEvent<HTMLDivElement>) => {
   store.closeAllDownloadMenu();
 };
 
+
+
 export const App = observer(() => {
   const height =
     8 +

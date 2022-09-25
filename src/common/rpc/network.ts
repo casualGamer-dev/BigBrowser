@@ -9,6 +9,8 @@ export interface NetworkService {
   request(url: string): Promise<ResponseDetails>;
 }
 
+
+
 export const networkMainChannel = new RendererToMainChannel<NetworkService>(
   'NetworkService',
 );

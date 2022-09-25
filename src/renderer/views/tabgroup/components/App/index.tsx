@@ -40,6 +40,8 @@ const onColorClick = (color: string) => () => {
   });
 };
 
+
+
 export const App = observer(() => {
   return (
     <ThemeProvider theme={{ ...store.theme }}>

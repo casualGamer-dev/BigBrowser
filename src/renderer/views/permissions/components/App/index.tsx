@@ -31,6 +31,8 @@ const getText = (permission: string) => {
   return '';
 };
 
+
+
 export const App = observer(() => {
   return (
     <ThemeProvider theme={{ ...store.theme }}>

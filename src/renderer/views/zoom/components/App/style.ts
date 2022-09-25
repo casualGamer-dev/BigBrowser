@@ -3,6 +3,8 @@ import styled, { css } from 'styled-components';
 import { ITheme } from '~/interfaces';
 import { DialogStyle } from '~/renderer/mixins/dialogs';
 
+
+
 export const StyledApp = styled(DialogStyle)`
   padding: 16px;
 
@@ -11,15 +13,21 @@ export const StyledApp = styled(DialogStyle)`
   `}
 `;
 
+
+
 export const Label = styled.div`
   font-size: 16px;
   min-width: 45px;
   text-align: center;
 `;
 
+
+
 export const Spacer = styled.div`
   flex-grow: 1;
 `;
+
+
 
 export const Buttons = styled.div`
   width: 100%;
@@ -30,6 +38,8 @@ export const Buttons = styled.div`
     margin-right: 8px;
   }
 `;
+
+
 
 export const Container = styled.div`
   width: 100%;

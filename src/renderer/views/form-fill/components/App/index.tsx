@@ -5,6 +5,8 @@ import List from '../List';
 import { StyledApp } from './style';
 import { UIStyle } from '~/renderer/mixins/default-styles';
 
+
+
 export const App = observer(() => {
   return (
     <StyledApp>

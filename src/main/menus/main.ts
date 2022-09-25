@@ -35,6 +35,8 @@ const createMenuItem = (
   return result;
 };
 
+
+
 export const getMainMenu = () => {
   const template: any = [
     ...(isMac

@@ -4,6 +4,8 @@ import { EASING_FUNCTION, BLUE_500 } from '~/renderer/constants';
 import { ICON_CHECK } from '~/renderer/constants/icons';
 import { centerIcon, centerBoth } from '~/renderer/mixins';
 
+
+
 export const Container = styled.div`
   height: 40px;
   display: flex;
@@ -17,6 +19,8 @@ export const Container = styled.div`
     opacity: 0.08;
   }
 `;
+
+
 
 export const StyledCheckbox = styled.div`
   width: 18px;
@@ -51,6 +55,8 @@ export const StyledCheckbox = styled.div`
     ${centerBoth()};
   }
 `;
+
+
 
 export const Icon = styled.div`
   width: 100%;

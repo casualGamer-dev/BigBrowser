@@ -1,11 +1,15 @@
 import styled, { css } from 'styled-components';
 import { ITheme } from '~/interfaces';
 
+
+
 export const Buttons = styled.div`
   display: flex;
   align-items: center;
   margin-right: 4px;
 `;
+
+
 
 export const Separator = styled.div`
   height: 16px;

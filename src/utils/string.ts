@@ -1,3 +1,5 @@
+
+
 export const makeId = (
   length: number,
   possible = 'abcdefghijklmnopqrstuvwxyz',
@@ -9,6 +11,8 @@ export const makeId = (
   return id;
 };
 
+
+
 export const replaceAll = (
   str: string,
   find: string,
@@ -19,9 +23,13 @@ export const replaceAll = (
   return str.replace(new RegExp(find, options), replace);
 };
 
+
+
 export const capitalizeFirst = (str: string) => {
   return str.substr(0, 1).toUpperCase() + str.substring(1).toLowerCase();
 };
+
+
 
 export const hashCode = (str: string) => {
   let hash = 0;

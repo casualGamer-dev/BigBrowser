@@ -13,6 +13,8 @@ import {
 } from './style';
 import { INewsItem } from '~/interfaces/news-item';
 
+
+
 export const NewsItem = observer(({ item }: { item: INewsItem }) => {
   // eslint-disable-next-line prefer-const
   let [img, setImg] = React.useState('');

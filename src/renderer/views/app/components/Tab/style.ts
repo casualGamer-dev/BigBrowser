@@ -10,6 +10,8 @@ interface CloseProps {
   theme?: ITheme;
 }
 
+
+
 export const StyledClose = styled.div`
   height: 20px;
   width: 20px;
@@ -38,6 +40,8 @@ interface ActionProps {
   theme?: ITheme;
 }
 
+
+
 export const StyledAction = styled.div`
   height: 20px;
   width: 20px;
@@ -64,6 +68,8 @@ interface PinActionProps {
   icon: string;
   theme?: ITheme;
 }
+
+
 
 export const StyledPinAction = styled.div`
   height: 12px;
@@ -93,6 +99,8 @@ interface TabProps {
   selected: boolean;
 }
 
+
+
 export const StyledTab = styled.div`
   position: absolute;
   height: 100%;
@@ -114,6 +122,8 @@ interface TitleProps {
   theme?: ITheme;
 }
 
+
+
 export const StyledTitle = styled.div`
   font-size: 12px;
   overflow: hidden;
@@ -132,6 +142,8 @@ export const StyledTitle = styled.div`
   `};
 `;
 
+
+
 export const StyledIcon = styled.div`
   height: 16px;
   min-width: 16px;
@@ -142,6 +154,8 @@ export const StyledIcon = styled.div`
     opacity: ${isIconSet ? 0 : 1};
   `};
 `;
+
+
 
 export const StyledContent = styled.div`
   overflow: hidden;
@@ -158,6 +172,8 @@ interface TabContainerProps {
   hasTabGroup: boolean;
   selected?: boolean;
 }
+
+
 
 export const TabContainer = styled.div`
   position: relative;

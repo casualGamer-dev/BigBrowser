@@ -2,6 +2,8 @@ import styled, { css } from 'styled-components';
 import { shadows } from '~/renderer/mixins';
 import { ITheme } from '~/interfaces';
 
+
+
 export const StyledSmallDialog = styled.div`
   width: fit-content;
   position: fixed;
@@ -30,6 +32,8 @@ export const StyledSmallDialog = styled.div`
     background-color: ${theme['dialog.backgroundColor']};
   `};
 `;
+
+
 
 export const Title = styled.div`
   font-size: 12px;

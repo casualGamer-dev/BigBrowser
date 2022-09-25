@@ -3,6 +3,8 @@ import { BLUE_500, ICON_PAGE, ICON_MORE } from '~/renderer/constants';
 import { centerIcon } from '~/renderer/mixins';
 import { ITheme } from '~/interfaces';
 
+
+
 export const StyledDownloadItem = styled.div`
   height: 64px;
   background-color: rgba(255, 255, 255, 0.04);
@@ -30,6 +32,8 @@ export const StyledDownloadItem = styled.div`
   }
 `;
 
+
+
 export const Title = styled.div`
   overflow: hidden;
   text-overflow: ellipsis;
@@ -38,17 +42,23 @@ export const Title = styled.div`
   `}
 `;
 
+
+
 export const SecondaryText = styled.div`
   opacity: 0.54;
   font-size: 11px;
   margin-top: 4px;
 `;
 
+
+
 export const Progress = styled.div`
   height: 5px;
   background-color: ${BLUE_500};
   border-radius: 16px;
 `;
+
+
 
 export const ProgressBackground = styled.div`
   height: 5px;
@@ -65,6 +75,8 @@ export const ProgressBackground = styled.div`
   `}
 `;
 
+
+
 export const Info = styled.div`
   display: flex;
   flex-flow: column;
@@ -74,6 +86,8 @@ export const Info = styled.div`
   text-overflow: ellipsis;
   white-space: nowrap;
 `;
+
+
 
 export const Icon = styled.div`
   width: 24px;
@@ -88,6 +102,8 @@ export const Icon = styled.div`
     filter: ${theme['dialog.lightForeground'] ? 'invert(100%)' : ''};
   `}
 `;
+
+
 
 export const MoreButton = styled.div`
   width: 36px;
@@ -109,6 +125,8 @@ export const MoreButton = styled.div`
     background-color: rgba(0, 0, 0, 0.06);
   }
 `;
+
+
 
 export const Separator = styled.div`
   height: 48px;

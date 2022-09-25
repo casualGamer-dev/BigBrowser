@@ -37,6 +37,8 @@ const onPresetClick = (name: Preset) => () => {
   store.preset = name;
 };
 
+
+
 export const SwitchItem = observer(
   ({
     children,
@@ -55,6 +57,8 @@ export const SwitchItem = observer(
     );
   },
 );
+
+
 
 export const Preferences = observer(() => {
   return (
@@ -163,7 +167,7 @@ export const Preferences = observer(() => {
           <ContextMenuSeparator bigger></ContextMenuSeparator>
           <SwitchItem name="topSitesVisible">Show top sites</SwitchItem>
           <SwitchItem name="quickMenuVisible">Show quick menu</SwitchItem>
-          {/* <ContextMenuSeparator bigger></ContextMenuSeparator>
+           <ContextMenuSeparator bigger></ContextMenuSeparator>
           <SubTitle>News visibility:</SubTitle>
           <Dropdown
             defaultValue={store.newsBehavior}
@@ -174,7 +178,7 @@ export const Preferences = observer(() => {
             <Dropdown.Item value="always-visible">Always visible</Dropdown.Item>
             <Dropdown.Item value="hidden">Hidden</Dropdown.Item>
             <Dropdown.Item value="on-scroll">Visible on scroll</Dropdown.Item>
-          </Dropdown> */}
+          </Dropdown> 
         </div>
       </div>
     </ContextMenu>

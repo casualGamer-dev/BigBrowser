@@ -2,6 +2,8 @@ import styled, { css } from 'styled-components';
 import { Button } from '../ToolbarButton/style';
 import { ITheme } from '~/interfaces';
 
+
+
 export const BookmarkBar = styled.div`
   position: relative;
   z-index: 100;
@@ -29,6 +31,8 @@ export const BookmarkBar = styled.div`
   `};
 `;
 
+
+
 export const BookmarkSection = styled.div`
   display: flex;
   flex-direction: row;
@@ -37,6 +41,8 @@ export const BookmarkSection = styled.div`
   flex-flow: row;
   overflow: hidden;
 `;
+
+
 
 export const BookmarkButton = styled(Button)`
   max-width: ${({ width }: { width: number }) => width}px;
@@ -49,6 +55,8 @@ export const BookmarkButton = styled(Button)`
   align-items: center;
 `;
 
+
+
 export const Title = styled.div`
   min-width: 0px;
   max-width: 125px;
@@ -57,6 +65,8 @@ export const Title = styled.div`
   text-overflow: ellipsis;
   padding: 0px 4px 0px 0px;
 `;
+
+
 
 export const Favicon = styled.div`
   background-size: contain;

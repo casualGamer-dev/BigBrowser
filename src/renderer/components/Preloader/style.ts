@@ -1,5 +1,7 @@
 import styled, { css } from 'styled-components';
 
+
+
 export const StyledPreloader = styled.div`
   transform-origin: center center;
   z-index: 5;
@@ -31,6 +33,8 @@ export const StyledPreloader = styled.div`
     }
   }
 `;
+
+
 
 export const Path = styled.circle`
   stroke-linecap: square;

@@ -5,6 +5,8 @@ import { StyledTopSites, Placeholder } from './style';
 import store from '../../store';
 import { TopSite } from '../TopSite';
 
+
+
 export const TopSites = observer(() => {
   return (
     <StyledTopSites>

@@ -80,6 +80,8 @@ const onMouseDown = (data: IBrowserAction) => async (e: any) => {
   // ipcRenderer.send(`hide-extension-popup-${store.windowId}`);
 };
 
+
+
 export const BrowserAction = observer(({ data }: Props) => {
   const {
     icon,

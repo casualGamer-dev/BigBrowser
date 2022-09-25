@@ -29,6 +29,8 @@ const onMoreClick =
     e.stopPropagation();
   };
 
+
+
 export const DownloadItem = observer(({ item }: { item: IDownloadItem }) => {
   let received = prettyBytes(item.receivedBytes);
   const total = prettyBytes(item.totalBytes);

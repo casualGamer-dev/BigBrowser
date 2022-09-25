@@ -122,6 +122,8 @@ const onBlur = (e: React.FocusEvent<HTMLInputElement>) => {
   }
 };
 
+
+
 export const AddressBar = observer(() => {
   return (
     <StyledAddressBar

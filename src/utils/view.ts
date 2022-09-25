@@ -1,5 +1,7 @@
 import { ipcRenderer } from 'electron';
 
+
+
 export const callViewMethod = async (
   id: number,
   method: string,

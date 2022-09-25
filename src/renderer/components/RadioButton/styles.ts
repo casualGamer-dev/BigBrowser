@@ -4,6 +4,8 @@ import { transparency, BLUE_500 } from '~/renderer/constants';
 import { robotoRegular } from '~/renderer/mixins';
 import { ITheme } from '~/interfaces';
 
+
+
 export const Container = styled.div`
   height: 40px;
   display: flex;
@@ -17,6 +19,8 @@ export const Container = styled.div`
     opacity: 0.08;
   }
 `;
+
+
 
 export const Circle = styled.div`
   border-radius: 100%;
@@ -53,6 +57,8 @@ export const Circle = styled.div`
   `}
 `;
 
+
+
 export const Root = styled.div`
   margin: 5px;
   cursor: pointer;
@@ -75,6 +81,8 @@ export const Root = styled.div`
   }
 `;
 
+
+
 export const Radio = styled.input`
   opacity: 0;
   z-index: 2;
@@ -96,6 +104,8 @@ export const Radio = styled.input`
     }
   }
 `;
+
+
 
 export const Label = styled.div`
   font-size: 14px;

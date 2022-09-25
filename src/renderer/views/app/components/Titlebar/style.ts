@@ -6,6 +6,8 @@ import { centerIcon } from '~/renderer/mixins';
 
 // margin-top: ${isHTMLFullscreen ? -TOOLBAR_HEIGHT : 0}px;
 
+
+
 export const StyledTitlebar = styled.div`
   position: relative;
   z-index: 100;
@@ -43,6 +45,8 @@ export const StyledTitlebar = styled.div`
     }
   `};
 `;
+
+
 
 export const FullscreenExitButton = styled.div`
   top: 0;

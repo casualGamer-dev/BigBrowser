@@ -10,6 +10,8 @@ import {
 import { isURL, prefixHttp } from '~/utils';
 import { saveAs, viewSource, printPage } from './common-actions';
 
+
+
 export const getViewMenu = (
   appWindow: AppWindow,
   params: Electron.ContextMenuParams,

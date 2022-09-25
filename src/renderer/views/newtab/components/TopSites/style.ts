@@ -1,6 +1,8 @@
 import styled, { css } from 'styled-components';
 import { ITheme } from '~/interfaces';
 
+
+
 export const StyledTopSites = styled.div`
   display: grid;
   grid-auto-flow: row;
@@ -15,11 +17,15 @@ export const StyledTopSites = styled.div`
   }
 `;
 
+
+
 export const ItemBase = styled.div`
   border-radius: 6px;
   width: 120px;
   height: 90px;
 `;
+
+
 
 export const Placeholder = styled(ItemBase)`
   box-sizing: border-box;

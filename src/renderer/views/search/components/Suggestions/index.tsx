@@ -13,6 +13,8 @@ const onMouseDown = (e: React.MouseEvent<HTMLDivElement>) => {
   e.stopPropagation();
 };
 
+
+
 export const Suggestions = observer(({ visible }: Props) => {
   return (
     <StyledSuggestions visible={visible} onMouseDown={onMouseDown}>

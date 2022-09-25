@@ -1,6 +1,10 @@
+
+
 export const isVisible = (el: HTMLElement) => {
   return el.offsetHeight !== 0;
 };
+
+
 
 export const searchElements = <T>(
   el: Document | HTMLElement,

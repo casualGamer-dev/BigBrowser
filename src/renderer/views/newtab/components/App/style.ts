@@ -4,6 +4,8 @@ import { centerIcon } from '~/renderer/mixins';
 import { ContextMenuRow } from '~/renderer/components/ContextMenu';
 import { ITheme } from '~/interfaces';
 
+
+
 export const Image = styled.div`
   position: absolute;
   z-index: 1;
@@ -39,6 +41,8 @@ export const Image = styled.div`
   `};
 `;
 
+
+
 export const Wrapper = styled.div`
   display: flex;
   align-items: center;
@@ -49,6 +53,8 @@ export const Wrapper = styled.div`
     height: ${fullSize ? '100vh' : 'auto'};
   `};
 `;
+
+
 
 export const Content = styled.div`
   display: flex;
@@ -61,6 +67,8 @@ export const Content = styled.div`
   z-index: 3;
 `;
 
+
+
 export const RightBar = styled.div`
   position: absolute;
   display: flex;
@@ -70,6 +78,8 @@ export const RightBar = styled.div`
   padding-top: 32px;
 `;
 
+
+
 export const Menu = styled.div`
   display: flex;
   position: absolute;
@@ -78,6 +88,8 @@ export const Menu = styled.div`
   width: 100%;
   bottom: 32px;
 `;
+
+
 
 export const IconItem = styled.div`
   width: 34px;
@@ -125,6 +137,8 @@ export const IconItem = styled.div`
     }
   `};
 `;
+
+
 
 export const Refresh = styled(IconItem)`
   position: absolute;

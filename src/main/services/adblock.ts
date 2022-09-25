@@ -68,6 +68,8 @@ interface IAdblockInfo {
 
 const sessionAdblockInfoMap: Map<Electron.Session, IAdblockInfo> = new Map();
 
+
+
 export const runAdblockService = async (ses: any) => {
   if (!adblockInitialized) {
     adblockInitialized = true;
@@ -114,6 +116,8 @@ export const runAdblockService = async (ses: any) => {
   engine.on('request-blocked', emitBlockedEvent);
   engine.on('request-redirected', emitBlockedEvent);
 };
+
+
 
 export const stopAdblockService = (ses: any) => {
   if (!ses.webRequest.removeListener) return;

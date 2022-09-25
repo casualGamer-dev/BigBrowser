@@ -4,6 +4,8 @@ import { AddressBar } from '../AddressBar';
 import { StyledAddressBarContainer } from './style';
 import store from '../../store';
 
+
+
 export const AddressBarContainer = observer(() => {
   return (
     <StyledAddressBarContainer

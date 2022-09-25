@@ -1,6 +1,8 @@
 import anime from 'animejs';
 import { TAB_ANIMATION_DURATION } from '../constants';
 
+
+
 export const animateTab = (
   property: 'translateX' | 'width',
   value: number,

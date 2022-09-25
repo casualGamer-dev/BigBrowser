@@ -1,3 +1,5 @@
+
+
 export const centerIcon = (size: number | 'contain' = 'contain') => {
   let s: string = size.toString();
 
@@ -10,6 +12,8 @@ export const centerIcon = (size: number | 'contain' = 'contain') => {
 `;
 };
 
+
+
 export const customImage = (
   width: string,
   height: string,
@@ -20,6 +24,8 @@ export const customImage = (
     background-position: ${left} ${top};
     background-repeat: no-repeat;
   `;
+
+
 
 export const coverImage = () => `
     background-size: cover;

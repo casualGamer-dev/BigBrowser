@@ -4,6 +4,8 @@ import { observer } from 'mobx-react-lite';
 import Tab from '../Tab';
 import store from '../../store';
 
+
+
 export const Tabs = observer(() => {
   return (
     <React.Fragment>

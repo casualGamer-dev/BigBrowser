@@ -1,5 +1,7 @@
 import styled, { css } from 'styled-components';
 
+
+
 export const StyledTabGroup = styled.div`
   position: absolute;
   left: 0;
@@ -8,6 +10,8 @@ export const StyledTabGroup = styled.div`
   height: 100%;
 `;
 
+
+
 export const Line = styled.div`
   height: 2px;
   left: 0;
@@ -15,6 +19,8 @@ export const Line = styled.div`
   position: absolute;
   border-radius: 4px;
 `;
+
+
 
 export const Placeholder = styled.div`
   -webkit-app-region: no-drag;

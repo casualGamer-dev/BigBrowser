@@ -27,6 +27,8 @@ const urlMatchesPatterns = (url: string, patterns: RegExp[]) =>
 const shouldRemoveChromeString = (url: string) =>
   urlMatchesPatterns(url, REMOVE_CHROME_COMPONENT_PATTERNS);
 
+
+
 export const getUserAgentForURL = (userAgent: string, url: string) => {
   let componentsToRemove = [...COMPONENTS_TO_REMOVE];
 

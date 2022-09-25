@@ -4,6 +4,8 @@ import { ITheme } from '~/interfaces';
 import { centerIcon } from '~/renderer/mixins';
 import { ICON_DROPDOWN } from '~/renderer/constants/icons';
 
+
+
 export const Control = css`
   height: 32px;
   position: relative;
@@ -25,11 +27,15 @@ export const Control = css`
   `}
 `;
 
+
+
 export const Input = styled.input.attrs(() => ({
   spellCheck: false,
 }))`
   ${Control}
 `;
+
+
 
 export const Dropdown = styled.div`
   ${Control}

@@ -3,6 +3,8 @@ import { Application } from '../application';
 import { DIALOG_MARGIN_TOP, DIALOG_MARGIN } from '~/constants/design';
 import { IBookmark } from '~/interfaces';
 
+
+
 export const showAddBookmarkDialog = (
   browserWindow: BrowserWindow,
   x: number,

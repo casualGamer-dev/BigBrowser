@@ -60,6 +60,8 @@ const BrowserActions = observer(() => {
   );
 });
 
+
+
 export const RightButtons = observer(() => {
   return (
     <Buttons>

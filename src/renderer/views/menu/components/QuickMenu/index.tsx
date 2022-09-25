@@ -89,6 +89,8 @@ const onUpdateClick = () => {
   ipcRenderer.send('install-update');
 };
 
+
+
 export const QuickMenu = observer(() => {
   return (
     <div

@@ -4,6 +4,8 @@ import { ITheme } from '~/interfaces';
 import { DialogStyle } from '~/renderer/mixins/dialogs';
 import { TOOLBAR_HEIGHT } from '~/constants/design';
 
+
+
 export const StyledApp = styled(DialogStyle)`
   transition: none;
   padding-bottom: 4px;
@@ -16,9 +18,13 @@ export const StyledApp = styled(DialogStyle)`
   `}
 `;
 
+
+
 export const Title = styled.div`
   font-size: 16px;
 `;
+
+
 
 export const Subtitle = styled.div`
   font-size: 13px;
@@ -26,11 +32,15 @@ export const Subtitle = styled.div`
   margin-top: 8px;
 `;
 
+
+
 export const Buttons = styled.div`
   display: flex;
   margin-top: 16px;
   float: right;
 `;
+
+
 
 export const Input = styled.input.attrs(() => ({
   spellCheck: false,
@@ -56,6 +66,8 @@ export const Input = styled.input.attrs(() => ({
   `}
 `;
 
+
+
 export const CurrentIcon = styled.div`
   width: 16px;
   height: 16px;
@@ -63,6 +75,8 @@ export const CurrentIcon = styled.div`
   ${centerIcon()};
   margin-left: 11px;
 `;
+
+
 
 export const SearchBox = styled.div`
   display: flex;

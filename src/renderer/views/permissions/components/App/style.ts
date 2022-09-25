@@ -5,6 +5,8 @@ import {
   DIALOG_BORDER_RADIUS,
 } from '~/renderer/mixins/dialogs';
 
+
+
 export const StyledApp = styled.div`
   margin: 16px;
   padding: 16px;
@@ -19,19 +21,27 @@ export const StyledApp = styled.div`
   `}
 `;
 
+
+
 export const Title = styled.div`
   font-size: 16px;
   font-weight: 300;
 `;
 
+
+
 export const Permissions = styled.div`
   margin-top: 12px;
 `;
+
+
 
 export const Permission = styled.div`
   font-size: 13px;
   margin-top: 8px;
 `;
+
+
 
 export const Buttons = styled.div`
   display: flex;

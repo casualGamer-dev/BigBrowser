@@ -3,6 +3,8 @@ import { ITheme } from '~/interfaces';
 import { centerIcon } from '~/renderer/mixins';
 import { ICON_ARROW_RIGHT } from '~/renderer/constants/icons';
 
+
+
 export const Line = styled.div`
   height: 1px;
   width: 100%;
@@ -13,6 +15,8 @@ export const Line = styled.div`
     background-color: ${theme['dialog.separator.color']};
   `};
 `;
+
+
 
 export const MenuItem = styled.div`
   height: 36px;
@@ -55,9 +59,13 @@ export const MenuItem = styled.div`
   }
 `;
 
+
+
 export const MenuItemTitle = styled.div`
   flex: 1;
 `;
+
+
 
 export const MenuItems = styled.div`
   flex: 1;
@@ -71,11 +79,15 @@ export const MenuItems = styled.div`
   `};
 `;
 
+
+
 export const Content = styled.div`
   display: flex;
   flex-flow: column;
   position: relative;
 `;
+
+
 
 export const Icon = styled.div`
   margin-right: 12px;
@@ -90,9 +102,13 @@ export const Icon = styled.div`
   `};
 `;
 
+
+
 export const RightControl = styled.div`
   margin-right: 18px;
 `;
+
+
 
 export const Shortcut = styled(RightControl)`
   opacity: 0.54;

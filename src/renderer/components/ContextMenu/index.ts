@@ -4,6 +4,8 @@ import { shadows, centerIcon } from '~/renderer/mixins';
 import { ITheme } from '~/interfaces';
 import { DIALOG_EASING } from '~/renderer/constants';
 
+
+
 export const ContextMenu = styled.div`
   outline: none;
   position: absolute;
@@ -40,6 +42,8 @@ export const ContextMenu = styled.div`
   `}
 `;
 
+
+
 export const ContextMenuSeparator = styled.div`
   height: 1px;
   width: 100%;
@@ -49,6 +53,8 @@ export const ContextMenuSeparator = styled.div`
     margin: ${bigger ? 8 : 4}px 0px;
   `}
 `;
+
+
 
 export const ContextMenuRow = styled.div`
   margin: 0 20px;
@@ -65,6 +71,8 @@ export interface ContextMenuItemProps {
   iconSize?: number;
   disabled?: boolean;
 }
+
+
 
 export const ContextMenuItem = styled.div`
   padding: 12px 24px;

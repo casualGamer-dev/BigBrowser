@@ -50,6 +50,8 @@ const onRemove = () => {
   store.hide();
 };
 
+
+
 export const App = observer(() => {
   return (
     <ThemeProvider theme={{ ...store.theme }}>

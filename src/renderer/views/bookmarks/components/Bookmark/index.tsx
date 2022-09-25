@@ -55,6 +55,8 @@ const onContextMenu = (data: IBookmark) => (e: any) => {
   store.currentBookmark = data;
 };
 
+
+
 export const Bookmark = observer(({ data }: { data: IBookmark }) => {
   const selected = store.selectedItems.includes(data._id);
 

@@ -8,6 +8,8 @@ import {
   DIALOG_BORDER_RADIUS,
 } from '~/renderer/mixins/dialogs';
 
+
+
 export const StyledApp = styled.div`
   margin: 16px;
   margin-top: 3px;
@@ -21,6 +23,8 @@ export const StyledApp = styled.div`
   `}
 `;
 
+
+
 export const StyledFind = styled.div`
   border-radius: 30px;
   height: 40px;
@@ -29,6 +33,8 @@ export const StyledFind = styled.div`
   overflow: hidden;
   display: flex;
 `;
+
+
 
 export const SearchIcon = styled.div`
   min-width: 16px;
@@ -43,6 +49,8 @@ export const SearchIcon = styled.div`
   `}
 `;
 
+
+
 export const Input = styled.input`
   width: 100%;
   height: 100%;
@@ -54,6 +62,8 @@ export const Input = styled.input`
   margin-left: 8px;
   color: inherit;
 `;
+
+
 
 export const Button = styled.div`
   ${({
@@ -95,10 +105,14 @@ export const Button = styled.div`
   }
 `;
 
+
+
 export const Buttons = styled.div`
   display: flex;
   margin-right: 8px;
 `;
+
+
 
 export const Occurrences = styled.div`
   opacity: 0.54;

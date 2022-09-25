@@ -18,6 +18,8 @@ interface Props {
   style?: any;
 }
 
+
+
 export const onMoreClick = (data: IFormFillData) => (
   e: React.MouseEvent<HTMLDivElement>,
 ) => {
@@ -30,6 +32,8 @@ export const onMoreClick = (data: IFormFillData) => (
   store.autoFill.menuLeft = left;
   store.autoFill.menuVisible = true;
 };
+
+
 
 export const Section = (props: Props) => {
   const { label, icon, children, style } = props;

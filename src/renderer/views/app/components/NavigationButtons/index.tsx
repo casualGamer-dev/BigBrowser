@@ -27,6 +27,8 @@ const onRefreshClick = () => {
   }
 };
 
+
+
 export const NavigationButtons = observer(() => {
   const { selectedTab } = store.tabs;
 

@@ -11,6 +11,8 @@ if (process.env.NODE_ENV === 'development') {
 import { platform } from 'os';
 import { Application } from './application';
 
+
+
 export const isNightly = app.name === 'nuon-nightly';
 
 app.allowRendererProcessReuse = true;

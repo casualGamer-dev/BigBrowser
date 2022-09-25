@@ -12,6 +12,8 @@ const onClick = (url: string) => () => {
   }
 };
 
+
+
 export const TopSite = observer(({ item }: { item?: IHistoryItem }) => {
   const { title, favicon, url } = item || {};
   const custom = favicon === '' || favicon == null;

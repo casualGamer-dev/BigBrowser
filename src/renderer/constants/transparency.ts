@@ -1,3 +1,5 @@
+
+
 export const transparency = {
   text: {
     high: 0.87,

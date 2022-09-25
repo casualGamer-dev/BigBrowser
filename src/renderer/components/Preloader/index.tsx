@@ -12,6 +12,8 @@ export interface Props {
   value?: number;
 }
 
+
+
 export const Preloader = ({
   style,
   color,

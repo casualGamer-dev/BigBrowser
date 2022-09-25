@@ -1,6 +1,8 @@
 import { resolve } from 'path';
 import { remote, app } from 'electron';
 
+
+
 export const getPath = (...relativePaths: string[]) => {
   let path: string;
 

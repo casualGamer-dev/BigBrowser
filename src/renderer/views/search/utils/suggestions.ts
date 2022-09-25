@@ -8,6 +8,8 @@ interface HistorySuggestion extends IHistoryItem {
   isSearch?: boolean;
 }
 
+
+
 export const getHistorySuggestions = (filter: string) => {
   filter = filter.trim().toLowerCase();
 
@@ -78,6 +80,8 @@ export const getHistorySuggestions = (filter: string) => {
 
   return historyItems.slice(0, 6);
 };
+
+
 
 export const getSearchSuggestions = (filter: string) =>
   // eslint-disable-next-line

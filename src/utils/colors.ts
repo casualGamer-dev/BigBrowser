@@ -1,7 +1,9 @@
 // @ts-nocheck
 
 /* eslint-disable @typescript-eslint/ban-ts-ignore */
-// https://stackoverflow.com/a/13542669
+
+
+
 
 export const getColorBrightness = (color: string) => {
   let r: number;
@@ -34,6 +36,8 @@ const componentToHex = (c: number) => {
   return hex.length == 1 ? '0' + hex : hex;
 };
 
+
+
 export const rgbToHex = (rgba: number[]) => {
   return (
     '#' +
@@ -42,6 +46,8 @@ export const rgbToHex = (rgba: number[]) => {
     componentToHex(Math.round(rgba[2]))
   );
 };
+
+
 
 export const hexToRgb = (hex) => {
   // Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")

@@ -41,6 +41,8 @@ const onClick = (suggestion: ISuggestion) => () => {
   store.hide();
 };
 
+
+
 export const Suggestion = observer(({ suggestion }: Props) => {
   const { hovered } = suggestion;
   const { primaryText, secondaryText, url } = suggestion;

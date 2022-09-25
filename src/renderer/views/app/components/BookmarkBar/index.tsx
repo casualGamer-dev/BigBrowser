@@ -1,6 +1,7 @@
 import { ipcRenderer } from 'electron';
 import * as React from 'react';
 import store from '../../store';
+
 import { observer } from 'mobx-react-lite';
 import {
   BookmarkButton,
@@ -69,6 +70,8 @@ const Bookmark = observer(
     );
   },
 );
+
+
 
 export const BookmarkBar = observer(() => {
   const { bookmarkBarItems: list, showOverflow } = store.bookmarksBar;

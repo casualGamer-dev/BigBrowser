@@ -3,10 +3,14 @@ import { ICON_MORE } from '~/renderer/constants';
 import { IconButton } from '../App/style';
 import { centerIcon } from '~/renderer/mixins';
 
+
+
 export const EnginesTable = styled.div`
   display: flex;
   flex-flow: column;
 `;
+
+
 
 export const TableRow = styled.div`
   margin-right: 0;
@@ -20,6 +24,8 @@ export const TableRow = styled.div`
     font-weight: ${bold ? 500 : 300};
   `};
 `;
+
+
 
 export const TableCell = styled.div`
   display: flex;
@@ -49,10 +55,14 @@ export const TableCell = styled.div`
   }
 `;
 
+
+
 export const TableHeader = styled(TableCell)`
   opacity: 0.54;
   margin-top: 8px;
 `;
+
+
 
 export const MoreButton = styled(IconButton)`
   height: 32px;

@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+
+
 export const StyledApp = styled.div`
   margin: 16px;
   padding: 16px;
@@ -8,9 +10,13 @@ export const StyledApp = styled.div`
   background: white;
 `;
 
+
+
 export const Title = styled.div`
   font-size: 16px;
 `;
+
+
 
 export const Container = styled.div`
   padding: 8px 0px;
@@ -19,6 +25,8 @@ export const Container = styled.div`
     margin-top: 12px;
   }
 `;
+
+
 
 export const Buttons = styled.div`
   width: 100%;

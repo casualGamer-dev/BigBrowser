@@ -6,6 +6,8 @@ import { StyledApp, Title, Domain } from './style';
 import store from '../../store';
 import { UIStyle } from '~/renderer/mixins/default-styles';
 
+
+
 export const App = observer(() => {
   return (
     <ThemeProvider theme={{ ...store.theme }}>

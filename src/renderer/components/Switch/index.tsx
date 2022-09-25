@@ -11,6 +11,8 @@ interface Props {
   onClick?: () => void;
 }
 
+
+
 export const Switch = ({ color, clickable, value, onClick, dense }: Props) => {
   return (
     <StyledSwitch

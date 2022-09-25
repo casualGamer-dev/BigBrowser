@@ -3,10 +3,14 @@ import { ContextMenuRow } from '~/renderer/components/ContextMenu';
 import { IconItem } from '../App/style';
 import { ITheme } from '~/interfaces';
 
+
+
 export const SubTitle = styled(ContextMenuRow)`
   margin-top: 16px;
   margin-bottom: 12px;
 `;
+
+
 
 export const Title = styled.div`
   height: 32px;
@@ -15,6 +19,8 @@ export const Title = styled.div`
   display: flex;
   align-items: center;
 `;
+
+
 
 export const Back = styled(IconItem)`
   margin: 0 8px 0 12px;

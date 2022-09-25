@@ -9,6 +9,8 @@ import {
 import { centerIcon } from '~/renderer/mixins';
 import { ITheme } from '~/interfaces';
 
+
+
 export const Container = styled.div`
   width: 100%;
   display: grid;
@@ -16,20 +18,28 @@ export const Container = styled.div`
   grid-row-gap: 16px;
 `;
 
+
+
 export const Label = styled.div`
   font-size: 13px;
   overflow: hidden;
   text-overflow: ellipsis;
 `;
 
+
+
 export const HeaderLabel = styled(Label)`
   opacity: 0.54;
 `;
+
+
 
 export const Wrapper = styled.div`
   display: flex;
   align-items: center;
 `;
+
+
 
 export const Icon = styled.div`
   width: 16px;
@@ -40,6 +50,8 @@ export const Icon = styled.div`
     background-image: url(${icon});
   `};
 `;
+
+
 
 export const PasswordIcon = styled.div`
   width: 20px;
@@ -56,6 +68,8 @@ export const PasswordIcon = styled.div`
     filter: ${theme.dark ? 'invert(100%)' : 'none'};
   `};
 `;
+
+
 
 export const More = styled.div`
   width: 24px;

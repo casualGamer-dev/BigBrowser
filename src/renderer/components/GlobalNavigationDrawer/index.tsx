@@ -30,6 +30,8 @@ const MenuItem = observer(
   ),
 );
 
+
+
 export const GlobalNavigationDrawer = () => {
   return (
     <NavigationDrawer dense title="">

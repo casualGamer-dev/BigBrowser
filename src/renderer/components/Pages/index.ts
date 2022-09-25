@@ -1,5 +1,7 @@
 import styled, { css } from 'styled-components';
 
+
+
 export const Container = styled.div`
   display: flex;
   overflow: auto;
@@ -26,11 +28,15 @@ export const Container = styled.div`
   }
 `;
 
+
+
 export const Content = styled.div`
   height: 100vh;
   flex: 1;
   overflow: auto;
 `;
+
+
 
 export const LeftContent = styled.div`
   position: relative;

@@ -4,10 +4,14 @@ import { robotoMedium, robotoLight, centerIcon } from '~/renderer/mixins';
 import { ITheme } from '~/interfaces';
 import { ICON_BACK } from '~/renderer/constants';
 
+
+
 export const Title = styled.div`
   font-size: 14px;
   ${robotoMedium()};
 `;
+
+
 
 export const Header = styled.div`
   margin-top: 4px;
@@ -17,6 +21,8 @@ export const Header = styled.div`
   align-items: center;
   ${robotoLight()};
 `;
+
+
 
 export const Row = styled.div`
   width: 100%;
@@ -37,9 +43,13 @@ export const Row = styled.div`
   `}
 `;
 
+
+
 export const Control = styled.div`
   margin-left: auto;
 `;
+
+
 
 export const SecondaryText = styled.div`
   opacity: 0.54;
@@ -47,6 +57,8 @@ export const SecondaryText = styled.div`
   margin-top: 4px;
   font-size: 12px;
 `;
+
+
 
 export const IconButton = styled.div`
   border-radius: 4px;
@@ -64,6 +76,8 @@ export const IconButton = styled.div`
     filter: ${theme['pages.lightForeground'] ? 'invert(100%)' : 'none'};
   `}
 `;
+
+
 
 export const Back = styled(IconButton)`
   position: absolute;

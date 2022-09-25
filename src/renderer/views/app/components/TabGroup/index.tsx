@@ -16,6 +16,8 @@ const onPlaceholderClick = (tabGroup: ITabGroup) => () => {
   });
 };
 
+
+
 export const TabGroup = observer(({ tabGroup }: { tabGroup: ITabGroup }) => {
   return (
     <>

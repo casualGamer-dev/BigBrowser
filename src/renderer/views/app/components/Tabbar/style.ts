@@ -9,6 +9,8 @@ import {
 } from '~/constants/design';
 import { ITheme } from '~/interfaces';
 
+
+
 export const StyledTabbar = styled.div`
   height: 100%;
   width: 100%;
@@ -36,6 +38,8 @@ export const StyledTabbar = styled.div`
     `};
   } */
 
+
+
 export const TabsContainer = styled.div`
   height: 100%;
   width: calc(100% - ${TOOLBAR_BUTTON_WIDTH}px);
@@ -51,6 +55,8 @@ export const TabsContainer = styled.div`
     opacity: 0;
   }
 `;
+
+
 
 export const AddTab = styled(ToolbarButton)`
   position: absolute;

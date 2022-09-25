@@ -142,6 +142,8 @@ function getPublicKeyFromProtoBuf(
   return null;
 }
 
+
+
 export const parseCrx = (buf: Buffer) => {
   // 50 4b 03 04
   // This is actually a zip file

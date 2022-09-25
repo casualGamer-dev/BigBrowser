@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+
+
 export const StyledNews = styled.div`
   display: grid;
   grid-auto-flow: dense;

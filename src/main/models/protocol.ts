@@ -3,6 +3,7 @@ import { join } from 'path';
 import { parse } from 'url';
 import { ERROR_PROTOCOL, WEBUI_PROTOCOL } from '~/constants/files';
 
+
 protocol.registerSchemesAsPrivileged([
   {
     scheme: 'nuon',
@@ -16,6 +17,7 @@ protocol.registerSchemesAsPrivileged([
     },
   },
 ]);
+
 
 export const registerProtocol = (session: Electron.Session) => {
   session.protocol.registerFileProtocol(

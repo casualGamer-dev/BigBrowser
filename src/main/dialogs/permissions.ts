@@ -2,6 +2,8 @@ import { VIEW_Y_OFFSET } from '~/constants/design';
 import { BrowserWindow } from 'electron';
 import { Application } from '../application';
 
+
+
 export const requestPermission = (
   browserWindow: BrowserWindow,
   name: string,

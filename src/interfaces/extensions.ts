@@ -5,6 +5,8 @@ export type BrowserActionChangeType =
   | 'setIcon'
   | 'setBadgeBackgroundColor';
 
+
+
 export const BROWSER_ACTION_METHODS: BrowserActionChangeType[] = [
   'setPopup',
   'setBadgeText',

@@ -40,6 +40,8 @@ const onWheel = (e: any) => {
   store.tabs.containerRef.current.scrollLeft = scrollLeft + target;
 };
 
+
+
 export const TabGroups = observer(() => {
   return (
     <React.Fragment>
@@ -49,6 +51,8 @@ export const TabGroups = observer(() => {
     </React.Fragment>
   );
 });
+
+
 
 export const Tabbar = observer(() => {
   return (

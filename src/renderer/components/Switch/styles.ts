@@ -11,6 +11,8 @@ interface Props {
   dense: boolean;
 }
 
+
+
 export const StyledSwitch = styled.div`
   border-radius: 32px;
   position: relative;
@@ -42,6 +44,8 @@ export const StyledSwitch = styled.div`
     }
   `}
 `;
+
+
 
 export const Thumb = styled.div`
   border-radius: 100%;

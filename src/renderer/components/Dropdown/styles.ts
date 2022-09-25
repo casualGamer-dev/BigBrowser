@@ -8,6 +8,8 @@ import {
 import { centerIcon } from '~/renderer/mixins';
 import { ITheme } from '~/interfaces';
 
+
+
 export const StyledDropdown = styled.div`
   height: 32px;
   min-width: 200px;
@@ -27,6 +29,8 @@ export const StyledDropdown = styled.div`
   `}
 `;
 
+
+
 export const Label = styled.div`
   font-size: 13px;
   margin-left: 8px;
@@ -36,6 +40,8 @@ export const Label = styled.div`
     color: ${theme['control.valueColor']};
   `}
 `;
+
+
 
 export const DropIcon = styled.div`
   width: 24px;

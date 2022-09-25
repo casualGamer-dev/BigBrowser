@@ -1,5 +1,7 @@
 import store from '../store';
 
+
+
 export const loadURL = (url: string) => {
   const tab = store.tabs.selectedTab;
 

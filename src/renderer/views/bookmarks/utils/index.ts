@@ -1,6 +1,8 @@
 import { IBookmark } from '~/interfaces';
 import store from '../store';
 
+
+
 export const getBookmarkTitle = (item: IBookmark) => {
   if (!item.static) return item.title;
 
@@ -18,6 +20,8 @@ export const getBookmarkTitle = (item: IBookmark) => {
 
   return '';
 };
+
+
 
 export const addImported = async (arr: any[], parent: IBookmark = null) => {
   let order = 0;

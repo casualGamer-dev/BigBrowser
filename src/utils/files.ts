@@ -2,6 +2,8 @@ import { DIRECTORIES, FILES } from '~/constants/files';
 import { getPath } from '.';
 import { mkdirSync, existsSync, writeFileSync, stat } from 'fs';
 
+
+
 export const checkFiles = () => {
   for (const dir of DIRECTORIES) {
     const path = getPath(dir);
@@ -19,6 +21,8 @@ export const checkFiles = () => {
     }
   });
 };
+
+
 
 export const pathExists = (path: string) => {
   return new Promise((resolve) => {

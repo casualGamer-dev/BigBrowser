@@ -7,6 +7,8 @@ import { NavigationButtons } from '../NavigationButtons';
 import { AddressBar } from '../AddressBar';
 import { RightButtons } from '../RightButtons';
 
+
+
 export const Toolbar = observer(() => {
   return (
     <StyledToolbar>

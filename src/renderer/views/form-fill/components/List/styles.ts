@@ -3,6 +3,8 @@ import styled, { css } from 'styled-components';
 import { robotoRegular, noButtons } from '~/renderer/mixins';
 import { transparency } from '~/renderer/constants';
 
+
+
 export const StyledList = styled.div`
   width: 100%;
   height: 100%;
@@ -10,6 +12,8 @@ export const StyledList = styled.div`
   overflow: hidden;
   ${noButtons()};
 `;
+
+
 
 export const StyledItem = styled.div`
   width: 100%;
@@ -27,6 +31,8 @@ export const StyledItem = styled.div`
   }
 `;
 
+
+
 export const Text = styled.div`
   padding: 0px 12px;
   font-size: 14px;
@@ -37,6 +43,8 @@ export const Text = styled.div`
   color: #000;
   ${robotoRegular()};
 `;
+
+
 
 export const SubText = styled(Text)`
   margin-top: 4px;

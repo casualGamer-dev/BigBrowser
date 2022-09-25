@@ -4,6 +4,8 @@ import { centerIcon } from '~/renderer/mixins';
 import { ITheme } from '~/interfaces';
 import { ICON_MORE } from '~/renderer/constants/icons';
 
+
+
 export const More = styled.div`
   ${centerIcon(20)};
   height: 24px;
@@ -19,12 +21,16 @@ export const More = styled.div`
   }
 `;
 
+
+
 export const Favicon = styled.div`
   ${centerIcon()};
   height: 16px;
   width: 16px;
   margin-right: 24px;
 `;
+
+
 
 export const Title = styled.div`
   flex: 1;
@@ -37,6 +43,8 @@ export const Title = styled.div`
     color: ${theme['pages.lightForeground'] ? '#fff' : '#000'};
   `}
 `;
+
+
 
 export const Site = styled.div`
   flex: 1;

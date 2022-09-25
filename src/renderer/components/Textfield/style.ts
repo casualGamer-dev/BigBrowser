@@ -13,6 +13,8 @@ interface StyledTextfieldProps {
   width?: number;
   dark: boolean;
 }
+
+
 export const StyledTextfield = styled.div`
   ${({ width, dark }: StyledTextfieldProps) => css`
     width: ${width === undefined ? 280 : width}px;
@@ -32,6 +34,8 @@ interface InputProps {
   hasIcon: boolean;
   dark: boolean;
 }
+
+
 
 export const Input = styled.input`
   width: 100%;
@@ -72,6 +76,8 @@ interface LabelProps {
   dark: boolean;
 }
 
+
+
 export const Label = styled.div`
   left: 12px;
   position: absolute;
@@ -92,6 +98,8 @@ export const Label = styled.div`
   `}
 `;
 
+
+
 export const Indicator = styled.div`
   height: 2px;
   margin-left: auto;
@@ -107,6 +115,8 @@ export const Indicator = styled.div`
     background-color: ${color};
   `}
 `;
+
+
 
 export const Icon = styled.div`
   width: 36px;

@@ -7,6 +7,8 @@ import {
 } from '~/constants/design';
 import { ITheme } from '~/interfaces';
 
+
+
 export const Icon = styled.div`
   width: 100%;
   height: 100%;
@@ -36,6 +38,8 @@ export const Icon = styled.div`
       : 'none'};
   `};
 `;
+
+
 
 export const Button = styled.div`
   border-radius: 2px;
@@ -91,6 +95,8 @@ interface BadgeProps {
   top: number;
 }
 
+
+
 export const Badge = styled.div`
   position: absolute;
   padding: 1px 3px;
@@ -106,6 +112,8 @@ export const Badge = styled.div`
     top: ${top}px;
   `};
 `;
+
+
 
 export const PreloaderBg = styled.div`
   width: 32px;

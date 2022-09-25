@@ -5,6 +5,8 @@ import { StyledNews } from './style';
 import store from '../../store';
 import { NewsItem } from '../NewsItem';
 
+
+
 export const News = observer(() => {
   return (
     <StyledNews>

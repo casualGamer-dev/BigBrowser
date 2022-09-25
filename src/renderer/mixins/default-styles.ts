@@ -2,6 +2,8 @@ import { css, createGlobalStyle } from 'styled-components';
 import { ITheme } from '~/interfaces';
 import { body2 } from './typography';
 
+
+
 export const baseStyle = css`
   body {
     user-select: none;
@@ -18,6 +20,8 @@ export const baseStyle = css`
   }
 `;
 
+
+
 export const UIStyle = createGlobalStyle`
   ${baseStyle};
 
@@ -25,6 +29,8 @@ export const UIStyle = createGlobalStyle`
     font-family: system-ui, sans-serif;
   }
 `;
+
+
 
 export const WebUIStyle = createGlobalStyle`
   ${baseStyle};

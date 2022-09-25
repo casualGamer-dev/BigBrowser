@@ -37,6 +37,8 @@ interface IDialog {
   rearrange: (bounds?: IRectangle) => void;
 }
 
+
+
 export const roundifyRectangle = (rect: IRectangle): IRectangle => {
   const newRect: any = { ...rect };
   Object.keys(newRect).forEach((key) => {

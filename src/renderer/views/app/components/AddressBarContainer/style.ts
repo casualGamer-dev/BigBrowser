@@ -2,6 +2,8 @@ import styled, { css } from 'styled-components';
 import { ITheme } from '~/interfaces';
 import { hexToRgb } from '~/utils';
 
+
+
 export const StyledAddressBarContainer = styled.div`
   position: absolute;
   left: 0;

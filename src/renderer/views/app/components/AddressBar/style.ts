@@ -2,6 +2,8 @@ import styled, { css } from 'styled-components';
 import { ITheme } from '~/interfaces';
 import { BLUE_300 } from '~/renderer/constants';
 
+
+
 export const StyledAddressBar = styled.div`
   height: 30px;
   flex: 1;
@@ -40,6 +42,8 @@ export const StyledAddressBar = styled.div`
   `};
 `;
 
+
+
 export const InputContainer = styled.div`
   flex: 1;
   position: relative;
@@ -47,6 +51,8 @@ export const InputContainer = styled.div`
   margin-left: 2px;
   overflow: hidden;
 `;
+
+
 
 export const Text = styled.div`
   pointer-events: none;
@@ -64,6 +70,8 @@ export const Text = styled.div`
     display: ${visible ? 'flex' : 'none'};
   `};
 `;
+
+
 
 export const Input = styled.input`
   outline: none;

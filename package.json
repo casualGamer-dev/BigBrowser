@@ -103,5 +103,8 @@
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.8.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "v8-compile-cache": "^2.3.0",
+    "vm-browserify": "^1.1.2"
+  }
 }

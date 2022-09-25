@@ -27,6 +27,8 @@ ipcRenderer.on('zoom-factor-updated', (e, zoomFactor) => {
   store.zoomFactor = zoomFactor;
 });
 
+
+
 export const App = observer(() => {
   return (
     <ThemeProvider theme={{ ...store.theme }}>

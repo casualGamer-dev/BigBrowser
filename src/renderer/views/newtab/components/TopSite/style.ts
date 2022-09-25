@@ -21,6 +21,8 @@ const getBgColor = (imageSet: boolean, dark: boolean, hover: boolean) => {
   }
 };
 
+
+
 export const Item = styled(ItemBase)`
   transition: 0.2s box-shadow, 0.2s background-color;
   cursor: pointer;
@@ -51,10 +53,14 @@ export const Item = styled(ItemBase)`
   `};
 `;
 
+
+
 export const AddItem = styled(Item)`
   ${centerIcon(36)};
   background-image: url(${ICON_ADD});
 `;
+
+
 
 export const Icon = styled.div`
   ${centerIcon()};
@@ -102,6 +108,8 @@ export const Icon = styled.div`
     }
   `}
 `;
+
+
 
 export const Title = styled.div`
   font-size: 12px;

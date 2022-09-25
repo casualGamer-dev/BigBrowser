@@ -1,6 +1,8 @@
 import styled, { css } from 'styled-components';
 import { centerIcon, overline, maxLines, shadows } from '~/renderer/mixins';
 
+
+
 export const Img = styled.div`
   transition: 0.5s opacity;
   position: relative;
@@ -17,10 +19,14 @@ export const Img = styled.div`
   `};
 `;
 
+
+
 export const Fill = styled.div`
   flex: 2;
   display: none;
 `;
+
+
 
 export const Description = styled.div`
   overflow: hidden;
@@ -31,6 +37,8 @@ export const Description = styled.div`
   display: none;
   opacity: 0.8;
 `;
+
+
 
 export const StyledNewsItem = styled.a`
   border-radius: 6px;
@@ -103,6 +111,8 @@ export const StyledNewsItem = styled.a`
   }
 `;
 
+
+
 export const Title = styled.div`
   font-weight: 500;
   line-height: 1.75rem;
@@ -112,15 +122,21 @@ export const Title = styled.div`
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 `;
 
+
+
 export const Footer = styled.div`
   display: flex;
   margin-top: 16px;
 `;
 
+
+
 export const Source = styled.div`
   opacity: 0.54;
   font-size: 12px;
 `;
+
+
 
 export const SourceIcon = styled.div`
   width: 16px;
@@ -130,6 +146,8 @@ export const SourceIcon = styled.div`
     background-image: url(${src});
   `};
 `;
+
+
 
 export const Info = styled.div`
   padding: 24px;
@@ -144,6 +162,8 @@ export const Info = styled.div`
     top: ${fullSize ? 0 : 'auto'};
   `};
 `;
+
+
 
 export const Overline = styled.div`
   ${overline()};

@@ -1,6 +1,8 @@
 import { ITheme } from '~/interfaces';
 import { BLUE_500 } from './colors';
 
+
+
 export const lightTheme: ITheme = {
   'titlebar.backgroundColor': '#d4d4d4',
   'addressbar.backgroundColor': '#fff',
@@ -34,6 +36,8 @@ export const lightTheme: ITheme = {
   accentColor: BLUE_500,
   backgroundColor: '#fff',
 };
+
+
 
 export const darkTheme: ITheme = {
   'titlebar.backgroundColor': '#1c1c1c',

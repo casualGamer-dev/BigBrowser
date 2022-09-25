@@ -7,6 +7,8 @@ import { injectChromeWebstoreInstallButton } from './chrome-webstore';
 
 const tabId = ipcRenderer.sendSync('get-webcontents-id');
 
+
+
 export const windowId: number = ipcRenderer.sendSync('get-window-id');
 
 const goBack = () => {

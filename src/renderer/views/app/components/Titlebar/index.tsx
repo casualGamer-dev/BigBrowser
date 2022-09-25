@@ -30,6 +30,8 @@ const onFullscreenExit = (e: React.MouseEvent<HTMLDivElement>) => {
   remote.getCurrentWindow().setFullScreen(false);
 };
 
+
+
 export const Titlebar = observer(() => {
   return (
     <StyledTitlebar

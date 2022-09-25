@@ -1,11 +1,16 @@
+
+
+
 export const isURL = (input: string): boolean => {
   const pattern = /^(?:\w+:)?\/\/([^\s.]+\.\S{2}|localhost[:?\d]*)\S*$/;
-
+  
   if (pattern.test(input)) {
     return true;
   }
   return pattern.test(`http://${input}`);
 };
+
+
 
 export const matchesPattern = (pattern: string, url: string) => {
   if (pattern === '<all_urls>') {
@@ -17,6 +22,7 @@ export const matchesPattern = (pattern: string, url: string) => {
   );
   return url.match(regexp) != null;
 };
+
 
 export const getDomain = (url: string): string => {
   let hostname = url;
@@ -37,6 +43,8 @@ export const getDomain = (url: string): string => {
 
   return hostname;
 };
+
+
 
 export const prefixHttp = (url: string): string => {
   url = url.trim();

@@ -4,6 +4,8 @@ import { centerIcon } from '~/renderer/mixins';
 import { ITheme } from '~/interfaces';
 import { transparency } from '~/renderer/constants';
 
+
+
 export const StyledNavigationDrawerItem = styled.div`
   padding: 4px 16px;
   display: flex;
@@ -35,6 +37,8 @@ export const StyledNavigationDrawerItem = styled.div`
     height: 18px;
   }
 `;
+
+
 
 export const Icon = styled.div`
   height: 24px;

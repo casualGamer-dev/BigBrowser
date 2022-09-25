@@ -7,6 +7,8 @@ import { QuickMenu } from '../QuickMenu';
 import store from '../../store';
 import { UIStyle } from '~/renderer/mixins/default-styles';
 
+
+
 export const App = observer(() => {
   return (
     <ThemeProvider

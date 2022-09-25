@@ -10,6 +10,8 @@ const onHideClick = () => {
   store.dialogContent = null;
 };
 
+
+
 export const CloseButton = () => {
   return (
     <Button background="transparent" foreground="#3F51B5" onClick={onHideClick}>
@@ -17,6 +19,8 @@ export const CloseButton = () => {
     </Button>
   );
 };
+
+
 
 export const Dialog = styled.div`
   width: 100%;
@@ -36,15 +40,21 @@ export const Dialog = styled.div`
   `}
 `;
 
+
+
 export const Title = styled.div`
   padding: 16px 16px 8px 16px;
   font-size: 16px;
   ${robotoMedium()};
 `;
 
+
+
 export const Content = styled.div`
   padding: 8px 16px 0px 16px;
 `;
+
+
 
 export const Buttons = styled.div`
   width: 100%;
@@ -59,6 +69,8 @@ export const Buttons = styled.div`
     margin-right: 4px;
   }
 `;
+
+
 
 export const Bold = styled.span`
   font-size: 14px;

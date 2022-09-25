@@ -4,6 +4,8 @@ import { robotoRegular } from '~/renderer/mixins';
 import { ITheme } from '~/interfaces';
 import { DialogStyle } from '~/renderer/mixins/dialogs';
 
+
+
 export const StyledApp = styled(DialogStyle)`
   padding: 16px;
 
@@ -18,17 +20,23 @@ export const StyledApp = styled(DialogStyle)`
   `}
 `;
 
+
+
 export const Subtitle = styled.div`
   font-size: 13px;
   opacity: 0.54;
   margin-top: 8px;
 `;
 
+
+
 export const Title = styled.div`
   font-size: 16px;
   margin-bottom: 16px;
   ${robotoRegular()};
 `;
+
+
 
 export const Row = styled.div`
   width: 100%;
@@ -37,9 +45,13 @@ export const Row = styled.div`
   display: flex;
 `;
 
+
+
 export const Label = styled.div`
   font-size: 12px;
 `;
+
+
 
 export const Buttons = styled.div`
   width: 100%;
