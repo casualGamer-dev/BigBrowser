@@ -1,6 +1,6 @@
 {
-  "name": "wexond",
-  "version": "6.0.0-nightly.2",
+  "name": "nuon",
+  "version": "stable-0.1",
   "sideEffects": false,
   "description": "Extensible, fast and innovative web browser with material UI.",
   "keywords": [
@@ -11,15 +11,15 @@
     "mobx",
     "styled-components"
   ],
-  "homepage": "https://github.com/wexond/wexond#readme",
+  "homepage": "https://github.com/casualGamer-dev/BigBrowser#readme",
   "main": "build/main.bundle.js",
-  "author": "Eryk Rakowski <sentialx@gmail.com>",
+  "author": "Toivi <tamanashdas@hotmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wexond/wexond.git"
+    "url": "git+https://github.com/casualGamer-dev/BigBrowser.git"
   },
   "bugs": {
-    "url": "https://github.com/wexond/wexond/issues"
+    "url": "https://github.com/casualGamer-dev/BigBrowser.issues"
   },
   "scripts": {
     "dev-renderer": "cross-env DEV=1 webpack serve --config webpack.config.renderer.js",
