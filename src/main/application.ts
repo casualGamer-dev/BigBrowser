@@ -87,6 +87,7 @@ export class Application {
   }
 
   private async onReady() {
+
     await app.whenReady();
 
     new ExtensionServiceHandler();
